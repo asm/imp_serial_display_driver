@@ -94,5 +94,5 @@ screen <- Screen(port0);
 screen.clear_screen();
 screen.start();
 
-screen0.set0("Hello"); // Write the first line
-screen0.set1("World"); // Write the second line
+screen.set0("Hello"); // Write the first line
+screen.set1("World"); // Write the second line
