@@ -83,7 +83,7 @@ class Screen {
 imp.configure("Serial Display", [], []);
 
 // Configure the UART port
-local port0 = hardware.uart12
+local port0 = hardware.uart57
 port0.configure(9600, 8, PARITY_NONE, 1, NO_CTSRTS);
 
 // Boot!
